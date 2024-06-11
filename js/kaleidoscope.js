@@ -24,7 +24,7 @@ $( document ).ready( function () {
   var s = parameters.s || 3;
 
   // PARAMETER: *n* is the number of segments.
-  var n = ~~parameters.n || 7;
+  var n = ~~parameters.n || 12;
   var tiles = '';
   if ( n ) {
     for ( var i = 0; i <= n * 2; i++ ) {
